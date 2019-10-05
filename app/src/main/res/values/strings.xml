@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="otro">Salir</string>
+    <string name="acercade">Acerca De</string>
+    <string name="textView_acerca">Creado por Carlos Ocaña</string>
+    <string name="volver">volver</string>
+</resources>
