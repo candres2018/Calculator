@@ -11,8 +11,8 @@
 
         <pl.droidsonroids.gif.GifImageView
             android:id="@+id/gifImageView"
-            android:layout_width="360dp"
-            android:layout_height="360dp"
+            android:layout_width="362dp"
+            android:layout_height="318dp"
             android:scaleType="fitXY"
             android:src="@drawable/calculator"
             app:layout_constraintBottom_toBottomOf="parent"

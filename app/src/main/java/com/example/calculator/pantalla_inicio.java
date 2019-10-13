@@ -9,8 +9,8 @@ import android.os.Handler;
 
 public class pantalla_inicio extends AppCompatActivity {
 
-    /** Duration of wait **/
-    private final int SPLASH_DISPLAY_LENGTH = 7000; //splash screen will be shown for 2 seconds
+    /** Estableciendo el tiempo de espera**/
+    private final int SPLASH_DISPLAY_LENGTH = 7000; //El tiempo de espera es alrededor de 3 segundos
     @Override
     protected void onCreate(Bundle icicle) {
         super.onCreate(icicle);
