@@ -10,7 +10,7 @@ import android.os.Handler;
 public class pantalla_inicio extends AppCompatActivity {
 
     /** Duration of wait **/
-    private final int SPLASH_DISPLAY_LENGTH = 5000; //splash screen will be shown for 2 seconds
+    private final int SPLASH_DISPLAY_LENGTH = 7000; //splash screen will be shown for 2 seconds
     @Override
     protected void onCreate(Bundle icicle) {
         super.onCreate(icicle);

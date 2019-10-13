@@ -95,56 +95,74 @@ public class MainActivity extends AppCompatActivity {
         textView3.setText(valor2);
     }
     public void del(View view){
-        int valor3=textView3.getText().length();
-        String valor1=textView3.getText().toString();
-        textView3.setText("");
-        String valor2="";
-
-        for ( int factor = 0; factor <= valor3-1; factor ++ ) {
-            valor2=valor2+valor1.charAt(factor);
-            textView3.setText(textView3.getText().toString()+valor2);
-        }
+        int valor1=textView3.length();
+        String cadena=textView3.getText().toString().substring(0,valor1-1);
+        textView3.setText(cadena);
     }
     public void clear(View view){
         textView3.setText("");
     }
     public void salir(View view){
-        finish();
+        System.exit(0);
     }
     public void seno(View view){
-        finish();
+        String valor=textView3.getText().toString();
+        String valor2=valor+ "sen";
+        textView3.setText(valor2);
     }
     public void coseno(View view){
-        finish();
+        String valor=textView3.getText().toString();
+        String valor2=valor+ "cos";
+        textView3.setText(valor2);
     }
     public void tangente(View view){
-        finish();
+        String valor=textView3.getText().toString();
+        String valor2=valor+ "tan";
+        textView3.setText(valor2);
     }
     public void ln(View view){
-        finish();
+        String valor=textView3.getText().toString();
+        String valor2=valor+ "ln";
+        textView3.setText(valor2);
     }
     public void log(View view){
-        finish();
+        String valor=textView3.getText().toString();
+        String valor2=valor+ "log";
+        textView3.setText(valor2);
     }
     public void cuadrado(View view){
-        finish();
+        String valor=textView3.getText().toString();
+        String valor2=valor+ "^2";
+        textView3.setText(valor2);
     }
     public void cubo(View view){
-        finish();
+        String valor=textView3.getText().toString();
+        String valor2=valor+ "^3";
+        textView3.setText(valor2);
     }
     public void factorial(View view){
-        finish();
+        String valor=textView3.getText().toString();
+        String valor2=valor+ "!";
+        textView3.setText(valor2);
     }
     public void numeroPi(View view){
-        finish();
+        String valor=textView3.getText().toString();
+        String valor2=valor+ "Pi";
+        textView3.setText(valor2);
     }
     public void par_Izq(View view){
-        finish();
+        String valor=textView3.getText().toString();
+        String valor2=valor+ "(";
+        textView3.setText(valor2);
     }
     public void par_Der(View view){
-        finish();
+        String valor=textView3.getText().toString();
+        String valor2=valor+ ")";
+        textView3.setText(valor2);
     }
     public void raiz(View view){
-        finish();
+        String valor=textView3.getText().toString();
+        String valor2=valor+ "Raiz";
+        textView3.setText(valor2);
     }
 }

@@ -206,7 +206,7 @@
                 android:id="@+id/par_d"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:onClick="clear"
+                android:onClick="par_Der"
                 android:text="@string/par_d"
                 android:textSize="17sp" />
 
@@ -214,7 +214,7 @@
                 android:id="@+id/par_i"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:onClick="clear"
+                android:onClick="par_Izq"
                 android:text="@string/par_i"
                 android:textSize="17sp" />
 
@@ -222,7 +222,7 @@
                 android:id="@+id/raiz"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:onClick="clear"
+                android:onClick="raiz"
                 android:text="@string/Raiz"
                 android:textSize="9sp" />
         </LinearLayout>
@@ -244,7 +244,7 @@
                 android:id="@+id/sen"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:onClick="clear"
+                android:onClick="seno"
                 android:text="@string/Sen"
                 android:textSize="10sp" />
 
@@ -252,7 +252,7 @@
                 android:id="@+id/cos"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:onClick="clear"
+                android:onClick="coseno"
                 android:text="@string/Cos"
                 android:textSize="10sp" />
 
@@ -260,7 +260,7 @@
                 android:id="@+id/tan"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:onClick="clear"
+                android:onClick="tangente"
                 android:text="@string/Tan"
                 android:textSize="10sp" />
         </LinearLayout>
@@ -274,7 +274,7 @@
                 android:id="@+id/fact"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:onClick="salir"
+                android:onClick="factorial"
                 android:text="@string/Fact"
                 android:textSize="10sp" />
 
@@ -282,7 +282,7 @@
                 android:id="@+id/cuad"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:onClick="clear"
+                android:onClick="cuadrado"
                 android:text="@string/Cuad"
                 android:textSize="10sp" />
 
@@ -290,7 +290,7 @@
                 android:id="@+id/cub"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:onClick="clear"
+                android:onClick="cubo"
                 android:text="@string/Cub"
                 android:textSize="10sp" />
 
@@ -298,7 +298,7 @@
                 android:id="@+id/pi"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:onClick="clear"
+                android:onClick="numeroPi"
                 android:text="@string/Pi"
                 android:textSize="10sp" />
         </LinearLayout>
@@ -320,7 +320,7 @@
                 android:id="@+id/ln"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:onClick="clear"
+                android:onClick="ln"
                 android:text="@string/Ln"
                 android:textSize="10sp" />
 
@@ -328,7 +328,7 @@
                 android:id="@+id/log"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:onClick="clear"
+                android:onClick="log"
                 android:text="@string/Log"
                 android:textSize="10sp" />
 
@@ -336,7 +336,7 @@
                 android:id="@+id/salir"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:onClick="clear"
+                android:onClick="salir"
                 android:text="@string/salir"
                 android:textSize="10sp" />
         </LinearLayout>
