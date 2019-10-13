@@ -6,4 +6,17 @@
     <string name="acercade">Acerca De</string>
     <string name="textView_acerca">Creado por Carlos Ocaña</string>
     <string name="volver">volver</string>
+    <string name="par_i">(</string>
+    <string name="par_d">)</string>
+    <string name="Sen">Sen</string>
+    <string name="Cos">Cos</string>
+    <string name="Tan">Tan</string>
+    <string name="Ln">Ln</string>
+    <string name="Log">Log</string>
+    <string name="Raiz">Raiz</string>
+    <string name="Pi">Pi</string>
+    <string name="Cuad">Cuad</string>
+    <string name="Cub">Cub</string>
+    <string name="Fact">Fact</string>
+    <string name="salir">Salir</string>
 </resources>

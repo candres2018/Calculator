@@ -111,4 +111,40 @@ public class MainActivity extends AppCompatActivity {
     public void salir(View view){
         finish();
     }
+    public void seno(View view){
+        finish();
+    }
+    public void coseno(View view){
+        finish();
+    }
+    public void tangente(View view){
+        finish();
+    }
+    public void ln(View view){
+        finish();
+    }
+    public void log(View view){
+        finish();
+    }
+    public void cuadrado(View view){
+        finish();
+    }
+    public void cubo(View view){
+        finish();
+    }
+    public void factorial(View view){
+        finish();
+    }
+    public void numeroPi(View view){
+        finish();
+    }
+    public void par_Izq(View view){
+        finish();
+    }
+    public void par_Der(View view){
+        finish();
+    }
+    public void raiz(View view){
+        finish();
+    }
 }
