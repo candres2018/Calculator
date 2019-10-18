@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+import org.mariuszgromada.math.mxparser.*;
 
 public class MainActivity extends AppCompatActivity {
     private TextView textView3;
@@ -164,5 +165,11 @@ public class MainActivity extends AppCompatActivity {
         String valor=textView3.getText().toString();
         String valor2=valor+ "Raiz";
         textView3.setText(valor2);
+    }
+    public void igual(View view){
+        String expresion = textView3.getText().toString();
+        Expression e = new Expression(expresion);
+        String resultado = String.valueOf(e.calculate());
+        textView3.setText(resultado);
     }
 }
